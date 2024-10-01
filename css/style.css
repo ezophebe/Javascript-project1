@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ /*  * {
+    box-sizing: inherit; 
+  } */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem; /* Responsive with rem units */
+    line-height: 1.6;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #9da29e;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  @media (max-width: 768px) {
+    body {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    body {
+      font-size: 1.1rem;
+      padding: 20px;
+    }
+  }
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0 5%;
+  padding: 0;
+  align-items: center; /* Center vertically */
+}
+nav ul li {
+  margin: 0 5px; /* Add space between items */
+}
+nav ul a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 10px; /* Adds clickable area */
+}
+nav ul a:hover {
+  color: #dfab40; /* Hover effect for links */
+}
+
+/*.capt-one {
+  display: inline;
+  border: 1px solid whitesmoke;
+  border-radius: 30%;
+  font-size: 1rem;
+} */
+.capt-one {
+  display: inline-block;
+  border: 2px solid whitesmoke;
+  border-radius: 40%; /* Makes it a circle*/
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/*.captionNdImgs {
+  display: flex;
+}*/
+.captionNdImgs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  margin-left: 4rem;
+}
+
+@media (max-width: 768px) {
+  .captionNdImgs {
+      flex-direction: column;
+      align-items: center;
+  }
+}
+
+.captions {
+  margin: 5rem  2rem;
+}
+.images {
+  margin-top: 2rem;
+  max-width: 100%;
+  height: auto;
+
+}
+.capt-two {
+  font-size: 2rem;
+}
+.capt-three {
+  font-size: 1.5rem;
+}
+body button {
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 15px;
+  background-color: #dfab40;
+}
+body button:hover {
+  background-color: bisque;
+  color: black;
+  font-size: larger;
+}
+footer {
+  padding: 10px 0px 10px 0px ;
+  text-align: center;
+}

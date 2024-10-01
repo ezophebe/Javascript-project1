@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Illume Readers Konnect</title>
+    <link rel="stylesheet" href=".\css\style.css">
+    <link rel="shortcut icon" href="Assets/favicon1.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+       <nav>
+        <ul>
+            <li><img src="Assets/IllumeReaders.png" alt="illumeReadersLogo" width="100px"></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">My profile</a></li>
+            <li><a href="#">Forum</a></li>
+           <li> <a href="#">Book Database</a></li>
+        </ul>
+       </nav>
+    </header>
+    <main>
+        <section>
+            <div class="captionNdImgs">
+                <div class="captions">
+                    <h2 class="capt-one">Fuel your passion for books</h2>
+                    <h2 class="capt-two">Unite Through Stories: <br>Discover, Discuss, and Dive Into the World of Books Together.</h2>
+                    <h2 class="capt-three">Where Every Page Turns into a Conversation!</h2>
+                   
+                    <form action="submit" id="thankYouForm">
+                        <p>We are glad you visit Illume Readers konnect, please enter your name below</p>
+                        <label for="username">Name:</label>
+                        <input type="text" name="username" id="username" placeholder="Firstname     Lastname">
+                        <button type="submit">Submit</button>
+                    </form>
+                    <div id="popupMessage" style="display: none;">
+                        <h2 id="thankYouMessage"></h2>
+                        <img src="Assets/thankyou.png" alt="Thank You" id="thankYouImage" style="width:200px; height:auto;">
+                    </div>
+                </div>
+                <div class="images">
+                    <img src="Assets/bookstack.png" alt="book images" style="width:100%; height:auto;">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; illumecode 2024</p>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
