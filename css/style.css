@@ -9,7 +9,7 @@
   } */
 body {
     font-family: 'Arial', sans-serif;
-    font-size: 1rem; /* Responsive with rem units */
+    font-size: 1rem; 
     line-height: 1.6;
     color: white;
     margin: 0;
@@ -41,19 +41,18 @@ nav ul {
   list-style: none;
   margin: 0 5%;
   padding: 0;
-  align-items: center; /* Center vertically */
+  align-items: center; 
 }
 nav ul li {
-  margin: 0 5px; /* Add space between items */
+  margin: 0 5px; 
 }
 nav ul a {
   text-decoration: none;
   color: whitesmoke;
-  padding: 10px; /* Adds clickable area */
+  padding: 10px;
 }
 nav ul a:hover {
-  color: #dfab40; /* Hover effect for links */
-}
+  color: #dfab40; 
 
 /*.capt-one {
   display: inline;
@@ -64,7 +63,7 @@ nav ul a:hover {
 .capt-one {
   display: inline-block;
   border: 2px solid whitesmoke;
-  border-radius: 40%; /* Makes it a circle*/
+  border-radius: 40%;
   padding: 10px 20px;
   font-size: 1rem;
   text-align: center;
